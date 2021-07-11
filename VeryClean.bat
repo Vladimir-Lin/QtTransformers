@@ -1,8 +1,8 @@
 set MODNAME=QtTransformers
 nmake clean
-del /s /q include\QtTransformers\QtTransformersDepends
-del /s /q include\QtTransformers\QtTransformersVersion
-del /s /q include\QtTransformers\qttransformersversion.h
+del /s /q include\%MODNAME%\%MODNAME%Depends
+del /s /q include\%MODNAME%\%MODNAME%Version
+del /s /q include\%MODNAME%\%MODNAME%version.h
 rd  /s /q bin
 rd  /s /q lib
 rd  /s /q mkspecs
