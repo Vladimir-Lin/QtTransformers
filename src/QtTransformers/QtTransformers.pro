@@ -5,9 +5,10 @@ QT          -= gui
 QT          -= script
 QT          += QtUUID
 
+load(qt_build_config)
+load(qt_module)
+
 INCLUDEPATH += $${PWD}
 HEADERS     += $${PWD}/qttransformers.h
 
 SOURCES     += $${PWD}/transformers.cpp
-
-load(qt_module)
